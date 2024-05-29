@@ -1,7 +1,6 @@
 #include <string>
 #include <stack>
 
-//feel free to add other classes/methods if you want
 bool DetermineXml(const std::string &input)
 {
     std::stack<std::string> tags;
