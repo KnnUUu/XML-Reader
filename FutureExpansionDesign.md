@@ -17,6 +17,21 @@ As wrote above, searching can be tricky so here I will design for the comparison
 
 ```cpp
 bool CompareXml(const std::string &input1, const std::string &input2) {
+	// Validate for input1 and input2
+	{
+		// ...
+	}
 
+	// Store tags and text in order
+	std::stack<string> st1;
+	std::stack<string> st2;
+
+	// Compare 2 stacks
+	bool ret = false;
+	{
+		// ...
+	}
+
+	return ret;
 }
 ```
